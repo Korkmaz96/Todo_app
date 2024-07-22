@@ -4,6 +4,10 @@ import 'package:todo_app/keys/keys.dart';
 //import 'package:todo_app/ui_updates_demo.dart';
 
 void main() {
+  var numbers = [1, 2, 3];
+  // numbers = [4, 5, 6];
+  numbers.add(4);
+
   runApp(const App());
 }
 
